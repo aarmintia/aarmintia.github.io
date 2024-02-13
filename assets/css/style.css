@@ -1104,3 +1104,28 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/*--------------------------------------------------------------
+# Scratch Section
+--------------------------------------------------------------*/
+#scratch {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/scratch-paper.jpg") top center;
+  background-size: cover;
+}
+
+#scratch .scratch-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#scratch p {
+  color: #9ea5b1;
+  text-indent: 5%;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
